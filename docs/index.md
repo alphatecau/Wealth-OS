@@ -1,4 +1,4 @@
 # Wealth-OS
 
-Welcome to Wealth-OS Knowledge System.
+Welcome to the Wealth-OS Knowledge System.
 
