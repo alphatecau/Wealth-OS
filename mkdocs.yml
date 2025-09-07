@@ -1,7 +1,7 @@
 site_name: Wealth-OS
 repo_url: https://github.com/alphatecau/Wealth-OS
 nav:
-  - Home: index.md
+  - Home: docs/index.md
   - Strategy: 01-Strategy/
   - Finance: 02-Finance/
   - Offers: 03-Offers/
