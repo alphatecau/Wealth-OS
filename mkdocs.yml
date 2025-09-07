@@ -48,6 +48,7 @@ nav:
   - Overview: 07-Metrics/README.md
 - Join: join.md
 - Premium Access: premium/index.md
+- Newsletter: newsletter.md
 site_url: https://alphatecau.github.io/Wealth-OS/
 docs_dir: docs
 extra:
@@ -60,3 +61,5 @@ extra:
     link: https://youtube.com/
 extra_css:
 - styles/extra.css
+extra_javascript:
+- assets/analytics.js
