@@ -1,12 +1,29 @@
 site_name: Wealth-OS
 repo_url: https://github.com/alphatecau/Wealth-OS
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
 nav:
-  - Home: docs/index.md
-  - Strategy: 01-Strategy/
-  - Finance: 02-Finance/
-  - Offers: 03-Offers/
-  - GTM: 04-GTM/
-  - Content: 05-Content/
-  - Systems: 06-Systems/
-  - Metrics: 07-Metrics/
-
+  - Home: index.md
+  - 01-Strategy:
+    - Overview: 01-Strategy/README.md
+  - 02-Finance:
+    - Cash Map: 02-Finance/cash-map.md
+    - Blockers: 02-Finance/blockers.md
+    - Accounts: 02-Finance/accounts.md
+  - 03-Offers:
+    - Core Offer: 03-Offers/core-offer.md
+    - Tripwire: 03-Offers/tripwire.md
+    - Bundle: 03-Offers/bundle.md
+  - 04-GTM:
+    - Positioning: 04-GTM/positioning.md
+    - Funnel: 04-GTM/funnel.md
+  - 05-Content:
+    - Overview: 05-Content/README.md
+  - 06-Systems:
+    - Overview: 06-Systems/README.md
+  - 07-Metrics:
+    - Overview: 07-Metrics/README.md
