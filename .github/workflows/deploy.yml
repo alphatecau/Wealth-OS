@@ -1,0 +1,22 @@
+name: Deploy MkDocs Variants
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.x" }
+      - run: pip install mkdocs mkdocs-material pyyaml
+      - run: |
+          for theme in gold emerald blue; do
+            docs-theme-switch $theme
+            mkdocs build -d site/$theme
+            touch site/$theme/.nojekyll
+          done
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
