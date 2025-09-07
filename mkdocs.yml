@@ -26,6 +26,7 @@ theme:
       icon: material/weather-sunny
       name: Switch to light mode
 nav:
+  - SEO: seo.md
 - Home: index.md
 - 01-Strategy:
   - Overview: 01-Strategy/README.md
