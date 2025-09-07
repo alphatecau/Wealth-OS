@@ -4,8 +4,27 @@ theme:
   name: material
   features:
   - navigation.sections
-  - navigation.indexes
+  - navigation.top
+  - navigation.tracking
   - content.code.copy
+  - content.action.edit
+  - toc.follow
+  - search.suggest
+  logo: assets/brand/logo.svg
+  favicon: assets/brand/favicon.svg
+  palette:
+  - scheme: default
+    primary: light blue
+    accent: cyan
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    primary: light blue
+    accent: cyan
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
 nav:
 - Home: index.md
 - 01-Strategy:
@@ -30,3 +49,13 @@ nav:
 - Join: join.md
 site_url: https://alphatecau.github.io/Wealth-OS/
 docs_dir: docs
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/alphatecau
+  - icon: fontawesome/brands/x-twitter
+    link: https://twitter.com/
+  - icon: fontawesome/brands/youtube
+    link: https://youtube.com/
+extra_css:
+- styles/extra.css
