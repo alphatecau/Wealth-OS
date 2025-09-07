@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  {# ---- SEO helpers ---- #}
+  {% set title = page.title or config.site_name %}
+  {% set desc  = page.meta.description or config.extra.site_description or "" %}
+  {% set url   = (config.site_url ~ page.url) if config.site_url else page.url %}
+  {% set image = page.meta.image or config.extra.og_image or "assets/brand/og-default.svg" %}
+
+  <link rel="canonical" href="{{ url }}">
+  <meta name="description" content="{{ desc }}"/>
+
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ url }}">
+  <meta property="og:image" content="{{ image | url }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  {% if config.extra.twitter_handle %}
+  <meta name="twitter:creator" content="{{ config.extra.twitter_handle }}">
+  {% endif %}
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ title | e }}",
+    "url": "{{ url }}",
+    "description": "{{ desc | e }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ config.site_name | e }}"
+    }
+  }
+  </script>
+{% endblock %}
