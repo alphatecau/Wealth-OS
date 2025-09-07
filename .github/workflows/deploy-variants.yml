@@ -1,0 +1,7 @@
+name: Disable MkDocs Variants
+on: [push]
+jobs:
+  skip:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'MkDocs Variants temporarily disabled for stable deploys.'
