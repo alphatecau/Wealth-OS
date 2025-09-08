@@ -1,14 +1,12 @@
 site_name: Wealth-OS
 site_url: https://alphatecau.github.io/Wealth-OS/
 repo_url: https://github.com/alphatecau/Wealth-OS
-
 theme:
   name: material
   palette:
     - scheme: slate
       primary: amber
       accent: deep orange
-
 nav:
   - Home: index.md
   - 01-Strategy:
@@ -27,6 +25,9 @@ nav:
       - Overview: 07-Metrics/README.md
   - Newsletter: newsletter/index.md
   - Premium: premium/index.md
-
+  - 01-Strategy:
+      - 01-Strategy/vision.md
+      - 01-Strategy/moat.md
+      - 01-Strategy/compass.md
 extra_javascript:
   - assets/js/analytics.js
