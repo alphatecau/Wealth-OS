@@ -29,5 +29,9 @@ nav:
       - 01-Strategy/vision.md
       - 01-Strategy/moat.md
       - 01-Strategy/compass.md
+  - 01-Strategy:
+      - 01-Strategy/vision.md
+      - 01-Strategy/moat.md
+      - 01-Strategy/compass.md
 extra_javascript:
   - assets/js/analytics.js
