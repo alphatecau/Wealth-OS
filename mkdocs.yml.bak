@@ -1,0 +1,66 @@
+site_name: Wealth-OS
+repo_url: https://github.com/alphatecau/Wealth-OS
+theme:
+  name: material
+  features:
+  - navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - content.code.copy
+  - content.action.edit
+  - toc.follow
+  - search.suggest
+  logo: assets/brand/logo-gold.svg
+  favicon: assets/brand/favicon-gold.svg
+  palette:
+  - scheme: default
+    primary: amber
+    accent: deep orange
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    primary: amber
+    accent: deep orange
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+nav:
+  - SEO: seo.md
+- Home: index.md
+- 01-Strategy:
+  - Overview: 01-Strategy/README.md
+- 02-Finance:
+  - Cash Map: 02-Finance/cash-map.md
+  - Blockers: 02-Finance/blockers.md
+  - Accounts: 02-Finance/accounts.md
+- 03-Offers:
+  - Core Offer: 03-Offers/core-offer.md
+  - Tripwire: 03-Offers/tripwire.md
+  - Bundle: 03-Offers/bundle.md
+- 04-GTM:
+  - Positioning: 04-GTM/positioning.md
+  - Funnel: 04-GTM/funnel.md
+- 05-Content:
+  - Overview: 05-Content/README.md
+- 06-Systems:
+  - Overview: 06-Systems/README.md
+- 07-Metrics:
+  - Overview: 07-Metrics/README.md
+- Join: join.md
+- Premium Access: premium/index.md
+- Newsletter: newsletter.md
+site_url: https://alphatecau.github.io/Wealth-OS/
+docs_dir: docs
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/alphatecau
+  - icon: fontawesome/brands/x-twitter
+    link: https://twitter.com/
+  - icon: fontawesome/brands/youtube
+    link: https://youtube.com/
+extra_css:
+- styles/extra.css
+extra_javascript:
+- assets/analytics.js

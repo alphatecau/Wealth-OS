@@ -1,30 +1,58 @@
-# 🔒 Premium Access
+# Premium Access
 
-Welcome to **Wealth-OS Premium**.  
-This section is for members who have upgraded.
+Unlock the full Wealth-OS library, advanced worksheets, and exclusive packs.
 
----
+<div class="pricing">
 
-## What’s Inside (after upgrade)
-- Complete **financial templates** (spreadsheets, calculators).  
-- Advanced **offer playbooks** and swipe files.  
-- Full **content system calendar** with AI prompts.  
-- **Systems library**: automation scripts & SOPs.  
-- **Metrics dashboards** with live tracking examples.  
+<div class="plan">
+  <h3>Starter</h3>
+  <div class="price">$0</div>
+  <ul>
+    <li>Core articles & guides</li>
+    <li>Newsletter access</li>
+    <li>Community updates</li>
+  </ul>
+  <a class="btn" href="/index.md">Get started</a>
+</div>
 
----
+<div class="plan featured">
+  <h3>Pro</h3>
+  <div class="price">$29 <span>/ month</span></div>
+  <ul>
+    <li>All Starter features</li>
+    <li>All worksheets & calculators</li>
+    <li>Downloadable templates</li>
+    <li>Priority support</li>
+  </ul>
+  <a class="btn primary" href="https://your-checkout-link.example/pro">Go Pro</a>
+  <small>Cancel anytime</small>
+</div>
 
-## 💳 Upgrade Options
+<div class="plan">
+  <h3>Lifetime</h3>
+  <div class="price">$249 <span>one-time</span></div>
+  <ul>
+    <li>Everything in Pro</li>
+    <li>Lifetime updates</li>
+    <li>All future variant packs</li>
+  </ul>
+  <a class="btn" href="https://your-checkout-link.example/lifetime">Get Lifetime</a>
+</div>
 
-<form action="https://www.paypal.com/donate" method="post" target="_blank">
-  <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID" />
-  <input type="submit" value="☕ Upgrade via PayPal" />
-</form>
+</div>
 
-<button onclick="window.open('https://buy.stripe.com/test_123456789','_blank')">
-  🚀 Upgrade via Stripe
-</button>
+## What’s inside Pro
 
----
+- 🚀 GTM accelerators (funnels, bundles, tripwires)
+- 🧮 Finance worksheets (cash map, blockers, accounts)
+- 🧰 Systems checklist + KPI dashboards
+- 📦 Variant packs & new drops monthly
 
-> Already a member? Enter your access code at login (coming soon).
+## FAQ
+
+**How do I get access?**  
+After checkout you’re redirected to a confirmation page and receive an email with your access link.
+
+**Team pricing?**  
+Email us and we’ll set up a team plan.
+

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alphatecau.github.io/Wealth-OS/sitemap.xml
